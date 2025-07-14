@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // 創建遊戲實例
   const game = new GomokuGame(gameConfig);
   const renderer = new GameRenderer(game, canvas);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const ui = new GameUI(game, renderer, canvas, statusMessageElement, restartButton);
+  // 創建 UI 實例（會自動設置事件監聽器）
+  void new GameUI(game, renderer, canvas, statusMessageElement, restartButton);
 
   // 初始渲染
   renderer.render();
