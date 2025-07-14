@@ -56,4 +56,4 @@ export interface Confetti {
     glowEffect: boolean;
     sparkleEffect: boolean;
     delay: number; // 新增：延遲啟動的幀數
-} 
+}
