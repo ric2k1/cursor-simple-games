@@ -1,6 +1,7 @@
 import GomokuGame from './game';
 import GameRenderer from './renderer';
 import { Position } from './types';
+import AudioManager from './audioManager';
 
 export default class GameUI {
   private game: GomokuGame;
@@ -81,6 +82,9 @@ export default class GameUI {
   private makeMove(position: Position): void {
     const success = this.game.makeMove(position);
     if (success) {
+      // 播放下棋音效
+      const state = this.game.getState();
+      AudioManager.playStoneSound(state.currentPlayer === 'black' ? 'white' : 'black');
       this.lastMoveTime = Date.now();
       this.updateUI();
       this.renderer.render();
