@@ -34,16 +34,16 @@ export default class AudioManager {
   private preloadSounds(): void {
     const soundFiles = [
       'shoot', 'enemyshoot', 'enemyhit', 'playerhit', 'explosion', 'gameover',
-      'laser1', 'laser2', 'laser3', 'laser4', 'laser5', 'laser6', 'laser7', 'laser8', 'laser9',
-      'zap1', 'zap2', 'zapThreeToneDown', 'zapThreeToneUp', 'zapTwoTone', 'zapTwoTone2',
-      'threeTone1', 'threeTone2', 'tone1', 'twoTone1', 'twoTone2',
-      'highDown', 'highUp', 'lowDown', 'lowRandom', 'lowThreeTone',
-      'pepSound1', 'pepSound2', 'pepSound3', 'pepSound4', 'pepSound5',
-      'phaseJump1', 'phaseJump2', 'phaseJump3', 'phaseJump4', 'phaseJump5',
+      'laser1', /* 'laser2', 'laser3', 'laser4', 'laser5', 'laser6', 'laser7', 'laser8', 'laser9', */
+      'zap1', /* 'zap2', */ 'zapThreeToneDown', 'zapThreeToneUp', 'zapTwoTone', 'zapTwoTone2',
+      'threeTone1', /* 'threeTone2', */ 'tone1', /* 'twoTone1', 'twoTone2', */
+      'highDown', /* 'highUp', */ 'lowDown', 'lowRandom', 'lowThreeTone',
+      'pepSound1', /* 'pepSound2', 'pepSound3', 'pepSound4', 'pepSound5', */
+      'phaseJump1', /* 'phaseJump2', 'phaseJump3', 'phaseJump4', 'phaseJump5', */
       'phaserDown1', 'phaserDown2', 'phaserDown3',
-      'phaserUp1', 'phaserUp2', 'phaserUp3', 'phaserUp4', 'phaserUp5', 'phaserUp6', 'phaserUp7',
-      'powerUp1', 'powerUp2', 'powerUp3', 'powerUp4', 'powerUp5', 'powerUp6', 'powerUp7', 'powerUp8', 'powerUp9', 'powerUp10', 'powerUp11', 'powerUp12',
-      'spaceTrash1', 'spaceTrash2', 'spaceTrash3', 'spaceTrash4', 'spaceTrash5',
+      'phaserUp1', 'phaserUp2', /* 'phaserUp3', */ 'phaserUp4', /* 'phaserUp5', 'phaserUp6', 'phaserUp7', */
+      'powerUp1', 'powerUp2', 'powerUp3', /* 'powerUp4', 'powerUp5', 'powerUp6', 'powerUp7', 'powerUp8', 'powerUp9', 'powerUp10', 'powerUp11', */ 'powerUp12',
+      'spaceTrash1', 'spaceTrash2', 'spaceTrash3', 'spaceTrash4', /* 'spaceTrash5', */
     ];
 
     soundFiles.forEach((soundName) => {

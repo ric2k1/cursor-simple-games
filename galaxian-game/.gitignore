@@ -60,4 +60,41 @@ jspm_packages/
 *.tgz
 
 # Yarn Integrity file
-.yarn-integrity 
+.yarn-integrity
+
+# Unused audio files
+public/laser2.mp3
+public/laser3.mp3
+public/laser4.mp3
+public/laser5.mp3
+public/laser6.mp3
+public/laser7.mp3
+public/laser8.mp3
+public/laser9.mp3
+public/zap2.mp3
+public/threeTone2.mp3
+public/twoTone1.mp3
+public/twoTone2.mp3
+public/highUp.mp3
+public/pepSound2.mp3
+public/pepSound3.mp3
+public/pepSound4.mp3
+public/pepSound5.mp3
+public/phaseJump2.mp3
+public/phaseJump3.mp3
+public/phaseJump4.mp3
+public/phaseJump5.mp3
+public/phaserUp3.mp3
+public/phaserUp5.mp3
+public/phaserUp6.mp3
+public/phaserUp7.mp3
+public/powerUp4.mp3
+public/powerUp5.mp3
+public/powerUp6.mp3
+public/powerUp7.mp3
+public/powerUp8.mp3
+public/powerUp9.mp3
+public/powerUp10.mp3
+public/powerUp11.mp3
+public/spaceTrash5.mp3
+public/kenney_digital_sfx.zip 
