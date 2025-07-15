@@ -33,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const game = new GomokuGame(gameConfig);
   const renderer = new GameRenderer(game, canvas);
   // 創建 UI 實例（會自動設置事件監聽器）
-  void new GameUI(game, renderer, canvas, statusMessageElement, restartButton);
+  // eslint-disable-next-line no-new
+  new GameUI(game, renderer, canvas, statusMessageElement, restartButton);
 
   // 初始渲染
   renderer.render();
