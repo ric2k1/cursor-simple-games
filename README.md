@@ -8,6 +8,8 @@ A collection of simple web games created with Cursor vibe code. These games are 
 
 A classic arcade-style space shooter game inspired by the 1979 Namco classic.
 
+<img width="1512" height="822" alt="image" src="https://github.com/user-attachments/assets/2da16608-619c-4fd0-8c43-a25c45f79597" />
+
 **Features:**
 
 - 🚀 Classic spaceship design
@@ -26,6 +28,9 @@ A classic arcade-style space shooter game inspired by the 1979 Namco classic.
 ### 2. Gomoku Game
 
 A modern implementation of the classic Five in a Row board game.
+
+<img width="919" height="822" alt="image" src="https://github.com/user-attachments/assets/d445f6d0-fa10-4d58-8205-49c82915b9a5" />
+
 
 **Features:**
 
